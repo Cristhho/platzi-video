@@ -12,7 +12,7 @@ import '../assets/styles/app.scss';
 
 const API = 'http://localhost:3000/initialState';
 
-export default function App() {
+export default function Home() {
 
   const initialState = useInitialState(API);
 
