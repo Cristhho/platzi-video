@@ -17,8 +17,7 @@ export default function Home() {
   const initialState = useInitialState(API);
 
   return (
-    <div className='App'>
-      <Header />
+    <>
       <Search />
 
       {
@@ -48,8 +47,6 @@ export default function Home() {
           }
         </Carousel>
       </Categories>
-
-      <Footer />
-    </div>
+    </>
   );
 }
